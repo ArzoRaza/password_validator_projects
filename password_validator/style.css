@@ -30,7 +30,7 @@
 .container header {
     font-size: 25px;
     font-weight: 600;
-    color: rgb(0, 0, 0);
+    color: rgba(18, 255, 77, 0.66);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,14 +57,35 @@ form .input_sec {
     border: 1px solid rgb(0, 0, 0);
     padding: 0 15px;
 }
+.input_sec .show-hide {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+}
 .field .icon {
     display: flex;
     align-items: flex;
     margin-top: 6px;
-    color: rgb(243, 27, 27);
+    color: rgb(255, 23, 23);
+    display: none;
 }
+.invalid 
 .icon i {
     padding: 3px;
+}
+.button{
+    margin: 25px 0 6px;
+}
+.button input {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    background-color: green;
+    cursor: pointer;    
+    transition: all 0.3s ease;
+}
+.button input:hover{
+    background-color: #28df5f;
 }
 
 

@@ -18,8 +18,8 @@
         <header>Sing up</header>
         <form action="#">
             <div class="field">
-                <div class="input_sec email_error">
-                    <input type="email" placeholder="Enter your email"/>
+                <div class="input_sec email_sec">
+                    <input type="email" placeholder="Enter your email" class="email"/>
                 </div>
                 <span class="icon">
                     <i class="fa-solid fa-circle-exclamation"></i>
@@ -28,9 +28,10 @@
                 </span>
 
             </div>
-            <div class="field">
-                <div class="input_sec pass_error">
-                    <input type="email" placeholder="Enter password"/>
+            <div class="field create_password">
+                <div class="input_sec">
+                    <input type="password" placeholder="Create password" class="password"/>
+                    <i class="fa-regular fa-eye-slash show-hide"></i>
                 </div>
                 <span class="icon">
                     <i class="fa-solid fa-circle-exclamation"></i>
@@ -38,6 +39,20 @@
                     <p class="error-text">Please enter atleast 8 character with number, symbol, mix letter password</p>
                 </span>
 
+            </div><div class="field confirm_password">
+                <div class="input_sec">
+                    <input type="password" placeholder="Confirm password" class="cPassword"/>
+                    <i class="fa-regular fa-eye-slash show-hide"></i>
+                </div>
+                <span class="icon">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+
+                    <p class="error-text">Password don't match</p>
+                </span>
+
+            </div>
+            <div class="input_sec button">
+                <input type="submit" value="Submit"/>
             </div>
         </form>
     </div>
